@@ -1,3 +1,7 @@
 function divide(a, b) {
-  return a / b;
+  try {
+    return a / b;
+  } catch (error) {
+    return "Divide by Zero not allowed";
+  }
 }
